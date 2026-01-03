@@ -1,0 +1,28 @@
+/* app/videos/videos.css */
+
+/* เดิมของคุณใช้ได้อยู่แล้ว — เพิ่มแค่ส่วนนี้เพื่อให้ placeholder สูงเท่ารูป */
+.video-thumb {
+  width: 100%;
+  height: 200px;
+  /* ปรับได้ตามดีไซน์ */
+  object-fit: cover;
+}
+
+.video-card .spacer {
+  flex: 1;
+}
+
+/* line clamp ถ้ายังไม่มีในไฟล์เดิม */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

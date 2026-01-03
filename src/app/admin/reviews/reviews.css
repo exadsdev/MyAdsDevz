@@ -1,0 +1,16 @@
+/* Clamp 2–4 lines */
+.line-clamp-2, .line-clamp-3, .line-clamp-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-2 { -webkit-line-clamp: 2; }
+.line-clamp-3 { -webkit-line-clamp: 3; }
+.line-clamp-4 { -webkit-line-clamp: 4; }
+
+/* Cards equal height */
+.review-card, .review-card .card-body { display: flex; flex-direction: column; }
+.review-card .spacer { flex: 1 1 auto; }
+
+/* Thumbnail aspect */
+.review-thumb { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; }
